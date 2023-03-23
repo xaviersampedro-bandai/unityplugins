@@ -1,3 +1,5 @@
+#if UNITY_EDITOR_OSX
+
 using System.IO;
 using System.Text.RegularExpressions;
 using UnityEditor;
@@ -422,3 +424,4 @@ namespace Apple.Core
 
     }
 }
+#endif
